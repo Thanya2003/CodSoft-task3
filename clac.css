@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #aecfe9;
+    outline: none;
+}
+
+.cont{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+.cal{
+    background-color: #aecfe9;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: inset 5px 5px 15px #aecfe9, 5px 5px 20px rgba(0,0,0,10) ;
+}
+
+.textb{
+    height:70px;
+    width: 260px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #a6cfee;
+    border: none;
+    font-size: 40px;
+    border-radius: 3px;
+    box-shadow: inset -5px -5px 12px #aecfe9, inset 5px 5px 12px rgba(0,0,0,.16)  ;
+    color: rgb(70, 70, 70);
+    text-align: end;
+    padding: 20px;
+
+}
+
+input[type=button]{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color:#aecfe9;
+    border: none;
+    font-size: 17px;
+    border-radius: 3px;
+    box-shadow: -5px -5px 10px #b7d8f2, 5px 5px 10px rgba(0,0,0,.16) ;
+    background-color: #aecfe9;
+}
+
+form input.equal{
+    width:120px;
+    border: 40px;
+}
+input[type=button]:hover{
+    box-shadow: inset -5px -5px 10px #b7d8f2, inset 5px 5px 10px rgba(0,0,0,.16)  ;
+
+}
